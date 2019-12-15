@@ -43,6 +43,5 @@ public int maxSubsetSumNoAdjacent(int[] array) {
 Both the time and space complexity of above dynamic programming implementation is O(n)
 ```
 Time Complexity  = O(n)
-
 Space Complexity = O(n)
 ```
