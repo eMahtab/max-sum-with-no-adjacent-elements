@@ -17,6 +17,8 @@ Input: [1,2,3,1]
 Output: 4 (include the first and third number)
 
 
+### Dynamic Programming Implementation
+
 ```java
 public int maxSubsetSumNoAdjacent(int[] array) {
     if(array == null || array.length == 0){
