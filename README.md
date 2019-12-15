@@ -45,3 +45,34 @@ Both the time and space complexity of above dynamic programming implementation i
 Time Complexity  = O(n)
 Space Complexity = O(n)
 ```
+
+### Dynamic Programming Implementation - Space Optimization O(1)
+
+```java
+public int maxSubsetSumNoAdjacent(int[] array) {
+    if(array == null || array.length == 0){
+	return 0;
+    } else if (array.length == 1){
+        return array[0];
+    } 
+        
+    int length = array.length;
+    int prev_prev_max_sum = array[0];
+    int prev_max_sum = Math.max(array[0], array[1]);	
+    int maxSum = prev_max_sum;
+    
+    for(int i = 2; i < length; i++){
+	maxSum = Math.max(prev_max_sum, prev_prev_max_sum + array[i]);
+	prev_prev_max_sum = prev_max_sum;
+	prev_max_sum = maxSum;
+    }
+		
+    return maxSum;
+}
+```
+
+Above implementation have time complexity of O(n) and space complexity of O(1)
+```
+Time Complexity  = O(n)
+Space Complexity = O(1)
+```
