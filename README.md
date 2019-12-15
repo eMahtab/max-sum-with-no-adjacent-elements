@@ -17,6 +17,10 @@ Input: [1,2,3,1]
 Output: 4 (include the first and third number)
 
 
+# Related Question 
+https://leetcode.com/problems/house-robber/
+
+
 ### Dynamic Programming Implementation
 
 ```java
@@ -78,5 +82,3 @@ Space Complexity = O(1)
 ```
 
 
-# Related Question 
-https://leetcode.com/problems/house-robber/
