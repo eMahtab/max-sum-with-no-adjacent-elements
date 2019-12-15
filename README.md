@@ -1,1 +1,1 @@
-# max-sum-with-no-adjacent-elements
+# Max sum with no adjacent elements
