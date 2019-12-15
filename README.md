@@ -39,3 +39,7 @@ public int maxSubsetSumNoAdjacent(int[] array) {
     return maxSums[length-1];
 }
 ```
+
+Time Complexity  = O(n)
+Space Complexity = O(n)
+
