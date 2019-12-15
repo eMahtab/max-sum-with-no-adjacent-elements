@@ -71,7 +71,7 @@ public int maxSubsetSumNoAdjacent(int[] array) {
 }
 ```
 
-Above implementation have time complexity of O(n) and space complexity of O(1)
+Above implementation have time complexity of O(n) but space complexity of O(1)
 ```
 Time Complexity  = O(n)
 Space Complexity = O(1)
