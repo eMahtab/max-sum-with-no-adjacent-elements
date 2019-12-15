@@ -3,6 +3,7 @@ Given an array of positive integers find the **maximum sum of non-adjacent eleme
 
 #### Note : We can not include two adjacent numbers.
 
+
 **Example 1:**
 
 Input: [2,3,2]
